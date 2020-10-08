@@ -1,0 +1,34 @@
+# Ask the user to input 2 values and store them in variables num1, num2\
+num1, num2 = input("Enter two numbers : ").split()
+
+# Convert the string into regular number Integer
+num1 = int(num1)
+
+num2 = int(num2)
+
+# Perform basic math operations : add, subtract, multiply, divide, modulus
+
+sum = num1 + num2
+
+sub = num1 - num2
+
+mult = num1 * num2
+
+div = num1 / num2
+
+modulus = num1 % num2
+
+# Print the result
+
+print("{} + {} = {}".format(num1,num2,sum))
+
+print("{} - {} = {}".format(num1,num2,sub))
+
+print("{} * {} = {}".format(num1,num2,mult))
+
+print("{} / {} = {}".format(num1,num2,div))
+
+print("{} % {} = {}".format(num1,num2,modulus))
+
+
+
